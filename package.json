@@ -1,0 +1,20 @@
+{
+  "name": "popular-da-construcao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Popular da Construção — Planaltina-GO e Formosa-GO",
+  "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  },
+  "license": "UNLICENSED"
+}
